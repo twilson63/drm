@@ -1,6 +1,11 @@
 {
   "imports": {
     "server": "https://deno.land/x/sift@0.4.2/mod.ts",
-    "hyper-connect": "https://x.nest.land/hyper-connect@0.1.10/deno/mod.ts"
+    "hyper-connect": "https://x.nest.land/hyper-connect@0.1.10/deno/mod.ts",
+    "crocks/": "https://cdn.skypack.dev/crocks@0.12.4/",
+    "zod": "https://deno.land/x/zod@v3.11.6/mod.ts",
+    "ramda": "https://cdn.skypack.dev/ramda@0.28.0",
+    "lib/": "./lib/",
+    "dotenv": "https://deno.land/x/dotenv@v3.1.0/load.ts"
   }
 }

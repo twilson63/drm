@@ -1,2 +1,2 @@
 watch:
-	@deno run --allow-net --allow-env --import-map import_map.json --watch ./mod.tsx
+	@deno run --allow-net --allow-env --allow-read --import-map import_map.json --watch --no-check=remote ./mod.tsx
