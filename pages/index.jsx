@@ -15,7 +15,7 @@ export default function () {
         <section class="">
           <h2 class="text-2xl text-center mb-8">Find Developer</h2>
           <div class="flex items-center justify-center">
-            <form class="form">
+            <form class="form" hx-get="/api/devs/search" hx-target="#results">
               <div class="form-control">
                 <input name="q" class="input input-bordered" type="text">
                 </input>
@@ -25,6 +25,7 @@ export default function () {
               </div>
             </form>
           </div>
+          <div id="results"></div>
         </section>
       </main>
     </Layout>
