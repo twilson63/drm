@@ -6,4 +6,5 @@ const { of } = Task
 export const search = ({query}) => criteria =>
   of(criteria)
     .chain(query)
-    .map(R.prop('docs'))
+    .map(x => (console.log(x), x))
+    .map(R.prop('matches'))
