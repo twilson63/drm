@@ -8,7 +8,9 @@
 
 ## Getting Started
 
-This application uses `htmx`, `daisyui`, and `jsx` to create a Developer RM tool, relationships are important and this application tracks developer relationships.
+This application uses `htmx`, `daisyui`, and `jsx` to create a Developer RM
+tool, relationships are important and this application tracks developer
+relationships.
 
 ## License
 

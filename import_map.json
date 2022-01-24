@@ -6,6 +6,8 @@
     "zod": "https://deno.land/x/zod@v3.11.6/mod.ts",
     "ramda": "https://cdn.skypack.dev/ramda@0.28.0",
     "lib/": "./lib/",
-    "dotenv": "https://deno.land/x/dotenv@v3.1.0/load.ts"
+    "models/": "./models/",
+    "dotenv": "https://deno.land/x/dotenv@v3.1.0/load.ts",
+    "asserts": "https://deno.land/std@0.122.0/testing/asserts.ts"
   }
 }

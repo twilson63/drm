@@ -1,6 +1,6 @@
 /** @jsx h */
-import { h } from 'server'
-import Layout from './_layout.tsx'
+import { h } from "server";
+import Layout from "./_layout.tsx";
 
 export default function () {
   return (
@@ -13,19 +13,20 @@ export default function () {
           <a href="/devs/new" class="btn btn-primary">Add New</a>
         </section>
         <section class="">
-        <h2 class="text-2xl text-center mb-8">Find Developer</h2>
-        <div class="flex items-center justify-center">
-        <form class="form">
-          <div class="form-control">
-            <input name="q" class="input input-bordered" type="text"></input>
+          <h2 class="text-2xl text-center mb-8">Find Developer</h2>
+          <div class="flex items-center justify-center">
+            <form class="form">
+              <div class="form-control">
+                <input name="q" class="input input-bordered" type="text">
+                </input>
+              </div>
+              <div class="mt-8 text-center">
+                <button class="btn btn-primary">Search</button>
+              </div>
+            </form>
           </div>
-          <div class="mt-8 text-center">
-            <button class="btn btn-primary">Search</button>
-          </div>
-        </form>
-        </div>
         </section>
       </main>
     </Layout>
-  )
+  );
 }
