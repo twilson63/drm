@@ -5,4 +5,5 @@ return output and can be easily tested.
 
 ## Table of contents
 
-- [create-dev](create-dev.js)
+- [Developer/create](developer/create.js)
+- [Developer/search](developer/search.js)
